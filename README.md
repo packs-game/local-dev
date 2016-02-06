@@ -5,8 +5,11 @@ Install mongo
 
 Clone all the packs services from ``https://github.com/packs-game``
 
-Replace your config in ``./config-env-vars.sh`` and run it in the current context (this is used for all the aws sqs services):
+Replace your config in ``./config-env-vars.sh`` (this is used for all the aws sqs services):
 
-``. ./config-env-vars.sh`` ( notice the first . )
 
 ``npm start``
+
+To stop all services used
+
+``npm stop``

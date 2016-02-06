@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "echo STARTING"
+    "start": ". ./config-env-vars.sh; ./run-all.sh",
+    "stop": "./stop-all.sh"
   },
   "author": "",
   "license": "ISC"
