@@ -1,0 +1,11 @@
+{
+  "name": "packs-local-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo STARTING"
+  },
+  "author": "",
+  "license": "ISC"
+}
