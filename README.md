@@ -13,3 +13,8 @@ Replace your config in ``./config-env-vars.sh`` (this is used for all the aws sq
 To stop all services used
 
 ``npm stop``
+
+
+To just set env keys run:
+
+` . ./config-env-vars.sh `
