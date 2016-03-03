@@ -2,7 +2,7 @@
 cd /www/packs-services/auth/
 npm start &
 
-cd /www/packs-services/cards
+cd /www/packs-services/cards/
 npm start &
 
 cd /www/packs-services/game/
@@ -14,14 +14,14 @@ npm start &
 cd /www/packs-services/queues/
 node matchmaking.js &
 
-cd /www/packs-services/socket
+cd /www/packs-services/socket/
 npm start &
 
-cd /www/packs-services/items
+cd /www/packs-services/item/
 npm start &
 
 cd /www/packs-services/app/
 grunt serve &
 
-cd /www/packs-services/card-builder
+cd /www/packs-services/card-builder/
 grunt serve &
