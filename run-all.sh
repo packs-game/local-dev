@@ -17,6 +17,9 @@ node matchmaking.js &
 cd /www/packs-services/socket
 npm start &
 
+cd /www/packs-services/items
+npm start &
+
 cd /www/packs-services/app/
 grunt serve &
 
